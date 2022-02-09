@@ -83,7 +83,7 @@ This is not needed for Lambda but no harm in leaving it
 ## Miscellaneous
 
 ### Accessing AWS Services while testing locally
-When deploying into the cloud, boto3 will inherit credentials once on AWS. Doesn't work super well when in a Docker container locally. Steps to get to work:
+When deploying into the cloud, boto3 will inherit credentials once on AWS. Doesn't work super well when in a Docker container locally. In your Dockerfile, add the following lines:
 
 ```bash
 #Temporarily set environment variables
