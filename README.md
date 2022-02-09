@@ -66,7 +66,7 @@ This is the template to use [Serverless' Framework](https://www.serverless.com/)
 1. Ensure that you have a (or whatever your main method is) in your code to be able to test on VS Code:
 
 ```python
-if '__name__' == '__main__':
+if __name__ == '__main__':
     main()
 ```
 This is not needed for Lambda but no harm in leaving it
