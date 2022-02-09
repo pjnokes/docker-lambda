@@ -71,4 +71,4 @@ This is the template to use [Serverless' Framework](https://www.serverless.com/)
 ## Miscellaneous
 
 ### Selenium
-    [Adapt this project](https://github.com/umihico/docker-selenium-lambda) if you are wanting to use Selenium in your docker file.
+[Adapt this project](https://github.com/umihico/docker-selenium-lambda) if you are wanting to use Selenium in your docker file.
