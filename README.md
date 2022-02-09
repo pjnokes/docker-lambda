@@ -1,4 +1,4 @@
-# Datacrunch's Lambda Docker
+# Deploying Lambda Functions Using Serverless + Docker + VS Code
 
 This is the template to use [Serverless' Framework](https://www.serverless.com/) in deploying AWS Lambda functions with a few commands.
 
