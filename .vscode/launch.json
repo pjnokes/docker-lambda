@@ -5,14 +5,7 @@
     "version": "1.0.0",
     "configurations": [
         {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
-        },
-        {
-            "name": "Docker: Python - General",
+            "name": "Docker: Python Debug",
             "type": "docker",
             "request": "launch",
             "preLaunchTask": "docker-run: debug",
