@@ -14,9 +14,9 @@ This is the template to use [Serverless' Framework](https://www.serverless.com/)
 **Note: if using powershell as your shell, the "sls" alias command won't natively work. If using Powershell, you will need to type out "serverless" instead of "sls" when running commands.**
 
 1. Navigate to the client's folder in sharepoint
-2. Create a new folder for this code to live in.
+2. Create a new folder for this code to live in
 3. Open up a shell in this folder (git bash preferred for me on windows)
-4. Run `sls create --template-url https://github.com/pjnokes/docker-lambda --path="NEW-PROJECT-NAME"` This will clone this template into the folder with the new name you put for the path variable.
+4. Run `sls create --template-url https://github.com/pjnokes/docker-lambda --path=NEW-PROJECT-NAME` This will clone this template into the folder with the new name you put for the path variable.
 
 ## How to configure the template
 
