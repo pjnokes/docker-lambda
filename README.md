@@ -73,6 +73,8 @@ This is not needed for Lambda but no harm in leaving it
 
 2. Once your code and template files are configured, open up the tab in VS Code. Press F5 to run. That will build the container and run your code (breakpoints can alos be used here)
 
+NOTE: Make sure that you have opened the **folder** in VS Code instead of individual files. It won't see the .vscode folder otherwise.
+
 ### Wrap-up and Deploy
 
 1. Delete the `test.py`, `images` folder, this readme (or modify it)
@@ -92,7 +94,7 @@ ENV AWS_SECRET_ACCESS_KEY=<SECRET_ACCESS_KEY_HERE>
 ENV AWS_DEFAULT_REGION=<REGION_HERE>
 ```
 
-**ENSURE YOU REMOVE THIS BEFORE DEPLOYING FOR SECURITY BEST PRACTICES**
+*ENSURE YOU REMOVE THIS BEFORE DEPLOYING FOR SECURITY BEST PRACTICES*
 
 ### Selenium
 [Adapt this project](https://github.com/umihico/docker-selenium-lambda) if you are wanting to use Selenium in your docker file.

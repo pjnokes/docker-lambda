@@ -12,6 +12,14 @@ provider:
       ecr_img:
         path: ./
         platform: linux/amd64
+  iam: #This adds administrator access to S3. Feel free to restrict or add additional permissions as needed
+    role:
+      statements:
+        - Effect: 'Allow'
+          Action:
+            - 's3:*'
+            - 's3-object-lambda:'
+          Resource: '*'
 
 functions:
   demo: #set the name of the function here
