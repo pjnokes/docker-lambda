@@ -97,9 +97,9 @@ ENV AWS_DEFAULT_REGION=<REGION_HERE>
 *ENSURE YOU REMOVE THIS BEFORE DEPLOYING FOR SECURITY BEST PRACTICES*
 
 ### Selenium
-[Adapt this project](https://github.com/umihico/docker-selenium-lambda) if you are wanting to use Selenium in your docker file.
+[Adapt this project](https://github.com/umihico/docker-selenium-lambda) if you are wanting to use Selenium in your docker file. I've provided one that works.
 
-### Adding Credential or Other Files to Your Project
+### Adding Credentials or Other Files to Your Project
 If you have additional files that need to be included with your project such as a credential .cfg file or an image, **the file needs to be copied in the Dockerfile otherwise it won't be visible to the program**
 
 Add into the Dockerfile:
