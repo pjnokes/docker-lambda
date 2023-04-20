@@ -28,13 +28,13 @@ This is the template to use [Serverless' Framework](https://www.serverless.com/)
     1. Go to the client's AWS and navigate to the IAM service.
     2. Click "Users" on the left-hand side.
     3. Click "Add users" on the right
-    ![Steps 2 and 3](/images/AWS_steps_2_3.png)
+    ![Steps 2 and 3](./images/AWS_steps_2_3.png)
     4. Give this user a name. Maybe something like "CLIENTNAME_datacrunch_programmatic"
     5. Click "Access key - Programmatic access"
-    ![Steps 4 and 5](/images/aws_steps_4_5.png)
+    ![Steps 4 and 5](./images/aws_steps_4_5.png)
     6. Click "Attach existing policies directly"
     7. Click "AdministratorAccess". If your user doesn't have AdministratorAccess, you may have to give only specific permission for what you have access to.
-    ![Steps 6 and 7](/images/aws_steps_6_7.png)
+    ![Steps 6 and 7](./images/aws_steps_6_7.png)
     8. Click "Next: tags".
     9. Click "Next: review".
     10. Click "Create user".

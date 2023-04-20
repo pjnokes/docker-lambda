@@ -1,4 +1,4 @@
-FROM public.ecr.aws/lambda/python@sha256:8dc4d4145c1a05ed727b2e57e611c302c7f7188b406ba0934a612166458e524e as build
+FROM public.ecr.aws/lambda/python@sha256:ac758b6345b677eb6e72c2cd0f71c182eca773da5db1e17835a4ffef46dbc997 as build
 # Keeps Python from generating .pyc files in the container
 ENV PYTHONDONTWRITEBYTECODE=1
 
