@@ -28,13 +28,13 @@ This is the template to use [Serverless' Framework](https://www.serverless.com/)
     1. Go to the client's AWS and navigate to the IAM service.
     2. Click "Users" on the left-hand side.
     3. Click "Add users" on the right
-    ![Steps 2 and 3](/images/AWS_steps_2_3.png)
+    ![Steps 2 and 3](./images/AWS_steps_2_3.png)
     4. Give this user a name. Maybe something like "CLIENTNAME_datacrunch_programmatic"
     5. Click "Access key - Programmatic access"
-    ![Steps 4 and 5](/images/aws_steps_4_5.png)
+    ![Steps 4 and 5](./images/aws_steps_4_5.png)
     6. Click "Attach existing policies directly"
     7. Click "AdministratorAccess". If your user doesn't have AdministratorAccess, you may have to give only specific permission for what you have access to.
-    ![Steps 6 and 7](/images/aws_steps_6_7.png)
+    ![Steps 6 and 7](./images/aws_steps_6_7.png)
     8. Click "Next: tags".
     9. Click "Next: review".
     10. Click "Create user".
@@ -97,9 +97,9 @@ ENV AWS_DEFAULT_REGION=<REGION_HERE>
 *ENSURE YOU REMOVE THIS BEFORE DEPLOYING FOR SECURITY BEST PRACTICES*
 
 ### Selenium
-[Adapt this project](https://github.com/umihico/docker-selenium-lambda) if you are wanting to use Selenium in your docker file.
+[Adapt this project](https://github.com/umihico/docker-selenium-lambda) if you are wanting to use Selenium in your docker file. I've provided one that works.
 
-### Adding Credential or Other Files to Your Project
+### Adding Credentials or Other Files to Your Project
 If you have additional files that need to be included with your project such as a credential .cfg file or an image, **the file needs to be copied in the Dockerfile otherwise it won't be visible to the program**
 
 Add into the Dockerfile:

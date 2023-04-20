@@ -3,7 +3,7 @@ service: <SERVICE-NAME-HERE>
 
 provider:
   name: aws
-  runtime: python3.9
+  runtime: python3.10
   stage: ${opt:stage, 'prod'} #defaults to prod if a stage is not found
   region: ${env:AWS_REGION, 'us-east-1'} #Uses the environment if set in your AWS CLI credentials, otherwise uses us-east-1 (N. Virginia). Feel free to manually set
   profile: <AWS-CLI-PROFILE-NAME-HERE>
@@ -22,7 +22,7 @@ provider:
           Resource: '*'
 
 functions:
-  demo: #set the name of the function here
+  demo: #<<< set the name of the function here on this line
     name: <NAME-OF-FUNCTION-HERE>
     description: <Description here if desired>
     timeout: 60 #how long it can be allowed to run in seconds.
